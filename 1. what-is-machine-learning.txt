@@ -1,0 +1,109 @@
+1. what is machine learning?
+
+machine learning is a branch of artificial intelligence (AI) and computer science 
+which focuses on the use of data and algorithms to imitate the way that humans learn, 
+gradually improving its accuracy
+
+
+2. how machine learning works?
+
+a) a decision process : machine learning algorithms are used to make a prediction or classification, 
+	based on some input data, which can be labeled or unlabeled, 
+	our algorithm will produce an estimate about a pattern in the data
+
+b) an error function : error function evaluates the prediction of the model,
+	if there are known examples, an error function can make a comparison to assess the accuracy of the model
+
+c) a model optimization process : if the model can fit better to the data points in the training set, 
+	then weights are adjusted to reduce the discrepancy between the known example and the model estimate,
+	the algorithm will repeat this “evaluate and optimize” process, updating weights autonomously until a threshold of accuracy has been met
+
+
+
+3. different machine learning methods?
+
+a) supervised machine learning : in this type of machine learning, data scientists supply algorithms with labeled training data and 
+	define the variables they want the algorithm to assess for correlations, both the input and the output of the algorithm is specified
+
+b) unsupervised machine learning : this type of machine learning involves algorithms that train on unlabeled data,
+	the algorithm scans through data sets looking for any meaningful connection, 
+	the data that algorithms train on as well as the predictions or recommendations they output are predetermined
+
+c) semi-supervised machine learning : this approach to machine learning involves a mix of the two preceding types,
+	data scientists may feed an algorithm mostly labeled training data, 
+	but the model is free to explore the data on its own and develop its own understanding of the data set
+
+d) reinforcement machine learning : data scientists typically use reinforcement learning to teach a machine to complete a multi-step process 
+	for which there are clearly defined rules,
+	data scientists program an algorithm to complete a task and give it positive or negative cues as it works out how to complete a task,
+	but for the most part, the algorithm decides on its own what steps to take along the way
+
+
+4. how does supervised machine learning work?
+
+a) inary classification: dividing data into two categories
+
+b) multi-class classification: choosing between more than two types of answers
+
+c) regression modeling: predicting continuous values
+
+d) ensembling: combining the predictions of multiple machine learning models to produce an accurate prediction
+
+
+
+5. how does unsupervised machine learning work?
+
+a) clustering : splitting the dataset into groups based on similarity
+
+b) anomaly detection : identifying unusual data points in a data set
+
+c) association mining : identifying sets of items in a data set that frequently occue together
+
+d) dimensionality reduction : reducing the number of variables in a data set
+
+
+
+6. how does semi-supervised machine learning work?
+
+a) machine translation : teaching algorithms to translate language based on less than a full dictionary of words
+
+b) fraud detection : identifying cases of fraud when we have only a few positive examples
+
+c) labelling data : algorithms trained on small data sets can learn to apply data labels to larger sets automatically
+
+
+
+7. how does reinforcement learning work?
+
+a) robotics : robots can learn to perform tasks the physical world using this technique
+
+b) video gameplay : reinforcement learning has been used to teach bots to play a number of video games
+
+c) resource management : given finite resources and a defined goal, 
+	reinforcement learning can hep enterprises plan out how to allocate resources
+
+
+8. uses of machine learning?
+
+i. customer relationship management
+ii. business intelligent
+iii. human resouce information systems
+iv. self-driving cars
+v. virtual assistants
+vi. recommendation engines
+vii. automated stock trading
+viii. fraud detection
+ix. speech recognition
+
+
+9. challenges of machine learning?
+
+i. technological singularity
+ii. AI impact on jobs
+iii. privacy
+iv. bias and discrimination
+v. accountability
+
+
+10. 
+
