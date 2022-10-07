@@ -1,0 +1,7 @@
+different ways for performing training step in machine learning :
+
+1. use all the available data for training and test on the same dataset
+
+2. split the available dataset into the training and test sets
+
+3. k fold cross validation
