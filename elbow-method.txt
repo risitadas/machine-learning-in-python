@@ -1,0 +1,30 @@
+Elbow Method
+
+
+--> the Elbow method is one of the most popular ways to find the optimal number of clusters
+
+--> this method uses the concept of WCSS value
+
+--> WCSS stands for Within Cluster Sum of Squares, which defines the total variations within a cluster
+
+--> the formula to calculate the value of WCSS (for 3 clusters) is given below:
+
+		
+		WCSS= ∑Pi in Cluster1 distance(Pi C1)2 +∑Pi in Cluster2distance(Pi C2)2+∑Pi in CLuster3 distance(Pi C3)2
+
+
+--> in the above formula of WCSS,
+
+		∑Pi in Cluster1 distance(Pi C1)2: it is the sum of the square of the distances between each data point 
+			and its centroid within a cluster1 and the same for the other two terms
+
+
+--> to measure the distance between data points and centroid, we use any method such as Euclidean distance or Manhattan distance
+
+
+--> to find the optimal value of clusters, the elbow method follows the below steps:
+
+	1. it executes the K-means clustering on a given dataset for different K values (ranges from 1-10)
+	2. for each value of K, calculates the WCSS value
+	3. plots a curve between calculated WCSS values and the number of clusters K
+	4. the sharp point of bend or a point of the plot looks like an arm, then that point is considered as the best value of K
