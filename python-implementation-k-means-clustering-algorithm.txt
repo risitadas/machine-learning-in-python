@@ -1,0 +1,15 @@
+python implementation of K-means Clustering Algorithm ?
+
+
+1. data pre-processing
+	---> importing libraries
+	---> importing the dataset
+	---> extracting independent variables
+
+
+2. finding the oprimal number of clusters using the elbow method
+
+3. training the K-means algorithm on the training dataset
+
+4. visualizing the clusters
+

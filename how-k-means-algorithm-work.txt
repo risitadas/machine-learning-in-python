@@ -1,0 +1,18 @@
+how does K-Means Algorithm work?
+
+
+step-1: select the number K to decide the number of clusters
+
+step-2: select random K points or centroids, it can be other from the input dataset
+
+step-3: assign each data point to their closest centroid, which will form the predefined K clusters
+
+step-4: calculate the variance and place a new centroid of each cluster
+
+step-5: repeat the third steps, which means reassign each datapoint to the new closest centroid of each cluster
+
+step-6: if any reassignment occurs, then go to step-4 else go to FINISH
+
+step-7: the model is ready
+
+
