@@ -1,0 +1,55 @@
+Naïve Bayes Classifier :
+
+
+applications :
+
+1. used for credit scoring
+2. used in medical data classification
+3. used in real-time predictions 
+	because Naïve Bayes Classifier is an eager learner
+4. used in text classification such as spam filtering and sediment analysis
+
+
+
+advantages :
+
+1. fast and easy ML algorithm to predict a class of dataset
+2. can be used for binary and as well as multi-class classifications
+3. performs well in multi-class predictions as compared to others
+4. most popular choice for text classification problems
+
+
+
+disadvantages :
+
+1. it assumes that all features are independent or unrelated,
+	so it cannot learn the relationship between the features
+
+
+
+types :
+
+1. Gaussian --> Gaussian model assumes that features follow a normal distribution, this means if predictors take continuous values instead of discrete, 
+			then the model assumes that these values are sampled from the Gaussian distribution
+
+2. Multinomial --> Multinomial Naïve Bayes classifier is used when the data is multinomial distributed, it is primarily used for document classification problems, 
+			it means a particular document belongs to which category such as Sports, Politics, education, etc.
+				the classifier uses the frequency of words for the predictors
+
+3. Bernoulli --> Bernoulli classifier works similar to the Multinomial classifier, but the predictor variables are the independent Booleans variables,
+			such as if a particular word is present or not in a document,
+				this model is also famous for document classification tasks
+
+
+
+python implementation :
+
+1. data preprocessing step
+
+2. fitting Naive Bayes to the training set step
+
+3. predicting the test result step
+
+4. test accuracy of the result(creation of confusion matrix) step
+
+5. visualizing the test set result step
