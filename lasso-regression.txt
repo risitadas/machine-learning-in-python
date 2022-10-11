@@ -1,0 +1,32 @@
+Lasso Regression 
+
+
+meaning :
+
+LASSO = Least Absolute Shrinkage and Selection Operator
+
+
+
+what is lasso regression :
+
+is a regularization technique
+it is used over regression methods for a more accurate prediction
+this model uses shrinkage
+
+shrinkage is where data values are shrunk towards a central point as the mean
+the lasso procedure encourages simple, sparse models (i.e. models with fewer parameters)
+this particular type of regression is well-suited for models showing high levels of multicollinearity or when we want to automate certain parts of model selection, 
+		like variable selection/parameter elimination
+
+it uses L1 regularization technique
+it is used when we have more features because it automatically performs feature selection
+
+
+
+Lasso Regularization Techniques :
+
+i.  L1 Regularization
+
+
+
+
