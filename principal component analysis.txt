@@ -1,0 +1,79 @@
+PCA : Principal Component Analysis
+
+
+
+about :
+
+Principal Component Analysis is a process of figuring out most important features or 
+components that has the most impact on the target variable
+
+PCA is called dimensionality reduction technique,
+as it can help us reduce dimensions
+
+
+
+things to keep in mind before using PCA :
+
+1. scale features before applying PCA
+2. accuracy might drop
+
+
+
+PCA algorithm is based on mathematical concepts :
+
+1. Variance and Covariance
+2. Eigenvalues and Eigen factors
+
+
+
+some common terms used in PCS algorithms :
+
+1. dimensionality --> the number of features or variables present in the given dataset, it is the number of columns present in the dataset
+
+2. correlation --> signifies that how strongly two variables are related to each other, such as if one changes, the other variable also gets changed,
+				the correlation value ranges from -1 to +1, here, -1 occurs if variables are inversely proportional to each other, 
+				and +1 indicates that variables are directly proportional to each other
+
+3. orthogonal -->  defines that variables are not correlated to each other, and hence the correlation between the pair of variables is zero
+
+4. eigenvectors --> if there is a square matrix M, and a non-zero vector v is given, then v will be eigenvector if Av is the scalar multiple of v
+
+5. covariance matrix --> matrix containing the covariance between the pair of variables
+
+
+
+Principal Component in PCS :
+
+the transformed new features or the output of PCA are the Principal Components
+their number are either equal to or less than the original features present in the dataset
+
+some properties are as follow ,
+
+--> the principal component must be the linear combination of the original features
+--> components are orthogonal ,ie., the correlation between a pair of variables is zero
+--> the importance of each decreases when going to 1 to n,
+	it means the 1PC has the most importance and the n PC will have the least 
+
+
+
+steps for PCA algorithm :
+
+1. getting the dataset
+2. representing data into a structure
+3. standardizing the data
+4. calculating the Covariance of Z
+5. calculating the Eigen values and the Eigen vectors
+6. sorting the Eigen vectors
+7. calculating the new features or Principal Components
+8. remove less or unimportant features from the new dataset
+
+
+
+applications of Principal Component Analysis :
+
+1. used as the dimensionality reduction technique in various AI aplications,
+	such as computer vision , image compression, etc
+
+2. used for finding hidden patters if data has high dimensions
+
+3. used in fields of finance, data mining and Psychology, etc
