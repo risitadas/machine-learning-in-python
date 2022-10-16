@@ -1,0 +1,25 @@
+Different Combinations of Bias-Variance :
+
+
+
+1. low bias, low variance -->  shows an ideal machine learning model, it is not possible practically
+
+
+
+2. low bias , high variance -->   model predictions are inconsistent and accurate on average, 
+						occurs when the model learns with a large number of parameters and hence leads to an overfitting
+
+
+
+3. high bias, low variance -->   predictions are consistent but inaccurate on average,
+						occurs when a model does not learn well with the training dataset or uses few numbers of the parameter,
+						it leads to underfitting problems in the model
+
+
+
+4. high bias, high variance --> predictions are inconsistent and also inaccurate on average
+
+
+
+
+
