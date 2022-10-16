@@ -1,0 +1,8 @@
+Identifying High Variance and High Bias :
+
+
+high variance can be identified if the model has --> low training error and high test error
+
+
+
+high bias can be identified if the model has --> high training error and the test error is almost similar to training error
