@@ -1,0 +1,21 @@
+for ,
+
+
+1. LOW BIAS :
+
+
+Decision Trees, k-Nearest Neighbours and Support Vector Machines 
+
+2. HIGH BIAS :
+
+Linear Regression, Linear Discriminant Analysis and Logistic Regression
+
+
+3. LOW VARIANCE :
+
+Linear Regression, Logistic Regression, and Linear discriminant analysis
+
+
+4. HIGH VARIANCE :
+
+decision tree, Support Vector Machine, and K-nearest neighbours
