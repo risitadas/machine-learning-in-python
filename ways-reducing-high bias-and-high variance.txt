@@ -1,0 +1,16 @@
+Ways of reducing High Bias and High Variance :
+
+I.  ways to reduce high bias ?
+
+	--> increase the input features as the model is underfittied
+	--> decrease the regulariztion term
+	--> using more complex models, such as including some polynomial features
+
+
+II.  ways to reduce high variance ?
+
+	--> reducing the input features or number of parameters as a model is overfitted
+	--> not using such a complex model
+	--> increase the training data
+	--> increase the regularization term
+
