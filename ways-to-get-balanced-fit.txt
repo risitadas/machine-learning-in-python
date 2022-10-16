@@ -1,0 +1,10 @@
+Ways to get Balanced fit Model :
+
+
+1. cross validation
+
+2. regularization
+
+3. dimensionality reduction
+
+4. ensemble techniques --> bagging , boosting
